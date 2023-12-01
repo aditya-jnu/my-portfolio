@@ -34,7 +34,7 @@ function audioPlayer() {
   player.ontimeupdate = () => {
     const ct = player.currentTime;
     const duration = player.duration;
-    const prog = Math.floor((ct * 10) / duration);
+    const prog = Math.floor((ct * 100) / duration);
 
     const minutes = Math.floor(ct / 60);
     const seconds = Math.floor(ct % 60);
