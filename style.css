@@ -1344,48 +1344,58 @@ a.resume {
 
 /* ------------------- js Animation --------------- */
 .top-up {
+    opacity: 0;
     transition: 1s ease;
     /* position: relative; */
     transform: translateY(200px);
 }
 
 .topelements {
+    opacity: 1;
     transform: translateY(0);
 }
 
 .left-up {
+    opacity: 0;
     transition: 1s ease;
     transform: translateX(-200px);
 }
 
 .leftelements {
+    opacity: 1;
     transform: translateX(0);
 }
 
 .right-up {
+    opacity: 0;
     transition: 1s ease;
     transform: translateX(200px);
 }
 
 .rightelements {
+    opacity: 1;
     transform: translateX(0);
 }
 
 .left-up-in {
+    opacity: 0;
     transition: 1s ease;
     transform: translateX(-100%);
 }
 
 .leftelementsin {
+    opacity: 1;
     transform: translateX(0);
 }
 
 .right-up-in {
+    opacity: 0;
     transition: 1s ease;
     transform: translateX(100%);
 }
 
 .rightelementsin {
+    opacity: 1;
     transform: translateX(0);
 }
 
