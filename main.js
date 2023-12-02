@@ -126,3 +126,21 @@ function addTopElementClass() {
     }
   });
 }
+
+var form = document.getElementById("form");
+
+// attach event listener
+form.addEventListener(
+  "submit",
+  (e) => {
+    e.preventDefault();
+    Email.send({
+      SecureToken :"1ef95311-61a5-45e3-a4c4-5a9bc7d54718",
+      To: "manjhipiojeet@gmail.com",
+      From: "manjhipiojeet@gmail.com",
+      Subject: document.getElementById('name').value+' has contacted you on you portfolio',
+      Body: "email: <h3>"+document.getElementById('email').value+"</h3><br> message : <h2>" +document.getElementById('textarea').value ,
+    }).then((message) => alert(message));
+  },
+  true
+);
