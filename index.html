@@ -13,14 +13,14 @@
 
     <title>Priyajeet Majhi personal portfolio</title>
 
-    
+
 </head>
 
 <body>
     <!-- navigation bar section -->
     <header>
         <nav>
-            
+
 
             <div class="name">
                 <a href="#">P<span class="same-color">.</span>M</a>
@@ -106,13 +106,14 @@
                         <h2>Priyajeet Majhi</h2>
                     </div>
                     <div>
-                        <p class="about">I'm a front-end developer with basic knowledge in designing great User interface
+                        <p class="about">I'm a front-end developer with basic knowledge in designing great User
+                            interface
                             and develop real life interaction.</p>
                     </div>
                 </div>
-    
+
                 <div class="msg"><a href="#contact-me">Get In touch <i class="uil uil-message"></i></a></div>
-    
+
                 <div class="down"><i class="uil uil-mouse-alt"></i><a href="#foot"> Scroll Down </a><i
                         class="uil uil-angle-double-down"></i></div>
             </div>
@@ -136,7 +137,8 @@
                     <p>I have also achieved a good understanding of relational databasses, as well as solid computer
                         science foundations such as complex algorithms and code challenge type problem solving.</p>
                 </div>
-                <div class="cv"><a download href="images/rem.png.png">Download CV <i class="uil uil-import"></i></a></div>
+                <div class="cv"><a download href="images/rem.png.png">Download CV <i class="uil uil-import"></i></a>
+                </div>
             </div>
 
             <div class="right-up-in">
@@ -356,27 +358,28 @@
 
                 </div>
 
-                <form action="#" class="right-up-in">
+                <!-- <form action="#" class="right-up-in"> -->
+                <form class="right-up-in" action="https://formspree.io/f/xqkvvjdr" method="POST">
                     <div id="margin">
                         <div class="full-name">
                             <label for="name" id="focus-one">Full Name</label>
-                            <input type="text" id="name" required name="name" placeholder="">
+                            <input type="text" autocomplete="off" id="name" required name="name" placeholder="">
                         </div>
 
                         <div class="full-name">
                             <label for="email">Email</label>
-                            <input type="rmail" id="email" required name="Email">
+                            <input type="email" autocomplete="off" id="email" required name="Email">
                         </div>
 
                         <div>
-                            <textarea name="" id="textarea" cols="50" rows="12" placeholder="your message"
+                            <textarea autocomplete="off" minlength="10" name="message" id="textarea" cols="50" rows="12" placeholder="your message"
                                 required></textarea>
                         </div>
 
                         <!-- <a href="#name" id="a">
                                 <h4 class="send">Send <i class="uil uil-message"></i> </h4>
                             </a> -->
-                        <button type="submit" class="send">Send <i class="uil uil-message"></i></button>
+                        <button type="submit" class="send" id="btn">Send <i class="uil uil-message"></i></button>
                     </div>
                 </form>
 
@@ -394,7 +397,6 @@
 
 
     <script src="main.js"></script>
-
 
 </body>
 
