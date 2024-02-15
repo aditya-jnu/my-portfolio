@@ -1150,6 +1150,10 @@ footer .bottom-footer ul li a:hover::after {
     .mob-navList ul li a {
         font-size: 16vw;
     }
+
+    #loader p {
+        font-size: 12vw;
+    }
 }
 
 @media only screen and (max-width: 380px) {

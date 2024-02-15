@@ -231,8 +231,8 @@
         padding-right: 0 !important;
     }
 
-    .work-link {
-        gap: 1rem;
+    .work-link label {
+        padding: 8px 12px;
     }
 
     .main-gola{
