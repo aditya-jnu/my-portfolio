@@ -144,3 +144,13 @@ form.addEventListener(
   },
   true
 );
+
+// ****************************************
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 1,
+  spaceBetween: 0,
+  pagination: {
+    el: ".swiper-pagination",
+    dynamicBullets: true,
+  },
+});
